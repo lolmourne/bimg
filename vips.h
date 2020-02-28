@@ -186,7 +186,7 @@ vips_type_find_save_bridge(int t) {
 		return vips_type_find("VipsOperation", "heifsave_buffer");
 	}
 	if (t == GIF) {
-		return vips_type_find("VipsOperation", "gifsave_buffer");
+		return vips_type_find("VipsOperation", "magicksave_buffer");
 	}
 #endif
 	return 0;
